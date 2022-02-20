@@ -1,0 +1,13 @@
+.catalog {
+  background: var(--background);
+  padding: 50px 0;
+  min-height: 100vh;
+  &-general {
+    &__title {
+      color: var(--block);
+    }
+    &__price {
+      color: var(--block);
+    }
+  }
+}

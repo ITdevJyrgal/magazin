@@ -1,0 +1,31 @@
+.basket {
+  padding: 50px 0;
+  background: var(--background);
+  min-height: 100vh;
+
+  &-general {
+    &__btn {
+      color: var(--color);
+    }
+
+    &__item {
+      color: var(--block);
+    }
+
+    &__title {
+      color: var(--background-color);
+    }
+  }
+}
+
+tr {
+  color: var(--block);
+}
+
+th {
+  color: var(--block);
+}
+
+td {
+  color: var(--block);
+}

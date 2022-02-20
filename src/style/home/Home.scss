@@ -1,0 +1,19 @@
+.home {
+  padding: 70px 0;
+  background: var(--background);
+  min-height: 100vh;
+  .home-general {
+    .slick-list {
+      overflow: hidden;
+
+      .slick-track {
+        display: flex;
+        width: 97%;
+      }
+
+      &__img {
+        width: 97%;
+      }
+    }
+  }
+}

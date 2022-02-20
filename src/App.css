@@ -1,0 +1,40 @@
+:root {
+    --background: #707070;
+    --color: black;
+    --background-color: #fff;
+    --block: #fff;
+    transition: 2s;
+}
+
+[data-theme='dark'] {
+    --background: #ffffff;
+    --color: white;
+    --background-color: #000;
+    --block: #000;
+    transition: all 2s;
+}
+
+.apps {
+    position: absolute;
+    z-index: 34;
+    width: 70px;
+    height: 35px;
+    border-radius: 40px;
+    right: 100px;
+    margin: 20px 0;
+    background: var(--color);
+    cursor: pointer;
+    transition: all.5s;
+}
+
+.apps2 {
+    width: 20px;
+    height: 20px;
+    margin: .5rem 1.6rem;
+    background: var(--block);
+    border-radius: 50%;
+}
+
+.App {
+    transition: all 2s;
+}

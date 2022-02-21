@@ -83,6 +83,7 @@ export const reducer = (state = initialState, action) => {
 
 
             return {...state, basket: [...state.basket, action.payload]}
+
         case "DECREASE_QUANTITY":
             if(state.basket[action.payload].quantity > 1){
                 return {
@@ -91,6 +92,10 @@ export const reducer = (state = initialState, action) => {
                     )
                 }
             }
+
+        case "REMOVE_FROM_BASKET" :
+            return {...state, basket: state.basket.filter()}
+
         default :
             return  state
     }

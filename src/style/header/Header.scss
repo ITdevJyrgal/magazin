@@ -5,15 +5,30 @@
   backdrop-filter: blur(20px);
   z-index: 345;
   border-bottom: 1px solid #000;
-  //rgba(19, 19, 19, 0.32)
+  transition: all .5s;
+
   &-general {
     padding: 15px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
+
+    &__logo {
+      color: var(--color);
+      font-size: 25px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      left: 10px;
+    }
+&__logos {
+  a {
+    text-decoration: none;
+  }
+}
     &__title {
       display: flex;
+      margin-right: 100px;
 
       a {
         text-decoration: none;

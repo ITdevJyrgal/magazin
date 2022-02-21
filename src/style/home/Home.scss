@@ -2,10 +2,10 @@
   padding: 70px 0;
   background: var(--background);
   min-height: 100vh;
+  transition: all .5s;
   .home-general {
     .slick-list {
       overflow: hidden;
-
       .slick-track {
         display: flex;
         width: 97%;

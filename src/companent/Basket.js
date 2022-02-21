@@ -19,7 +19,7 @@ const Basket = () => {
                             <th>#</th>
                             <th>Product Name</th>
                             <th>Image</th>
-                            <th>Quantity</th>
+                            <th colSpan={2}>Quantity</th>
                             <th>Price</th>
                         </tr>
                         </thead>
@@ -30,7 +30,7 @@ const Basket = () => {
                                     <td className="basket-general__item">{idx + 1}</td>
                                     <td className="basket-general__title">{el.title}</td>
                                     <td><img src={el.image} alt="img" height="60px"/></td>
-                                    <td>
+                                    <td colSpan={2}>
                                 <span>
                                     <button className="btn btn-primary mx-2  basket-general__btn"
                                             onClick={() => dispatch({type: "ADD_TO_BASKET", payload: el})}

@@ -1,21 +1,18 @@
 import React from 'react';
 import {Link} from "react-router-dom"
-import useLocalStorage from "use-local-storage"
 
 const Header = () => {
-    //
-    // const [theme, setTheme] = useLocalStorage('theme' ? 'dark' : 'light')
-    //
-    // const switchTheme = () => {
-    //     const newTheme = theme === 'light' ? 'dark' : 'light';
-    //     setTheme(newTheme)
-    // }
-    // data-theme={theme}
+
     return (
         <div  >
             <div className="header">
                 <div className="container">
                     <div className="header-general">
+                        <div className="header-general__logos">
+                        <Link to="/">
+                            <h1 className="header-general__logo">logo</h1>
+                        </Link>
+                        </div>
                         <div className="header-general__title">
                             <Link to="/">
                                 <h1 className="header-general__item"> home</h1>
@@ -33,7 +30,6 @@ const Header = () => {
                                 <h1 className="header-general__item">basket</h1>
                             </Link>
                         </div>
-
                     </div>
                 </div>
             </div>

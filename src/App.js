@@ -8,6 +8,7 @@ import {Routes, Route} from "react-router-dom"
 import {useDispatch} from "react-redux";
 import useLocalStorage from "use-local-storage";
 import "./style/style.scss";
+import React from "react";
 
 function App() {
     const dispatch = useDispatch()
@@ -21,7 +22,6 @@ function App() {
 
 
     return (
-
         <div className="App" data-theme={theme}>
             <div onClick={switchTheme} className="apps">
                 <div onClick={switchTheme} className="apps2"/>

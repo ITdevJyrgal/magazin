@@ -2,7 +2,7 @@
   padding: 50px 0;
   background: var(--background);
   min-height: 100vh;
-
+  transition: all .5s;
   &-general {
     &__btn {
       color: var(--color);
@@ -16,16 +16,4 @@
       color: var(--background-color);
     }
   }
-}
-
-tr {
-  color: var(--block);
-}
-
-th {
-  color: var(--block);
-}
-
-td {
-  color: var(--block);
 }

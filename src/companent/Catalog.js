@@ -11,10 +11,10 @@ const Catalog = () => {
         <div className="catalog">
             <div className="container">
                 <div className="catalog-general">
-                    <div className="row my-5">
+                    <div className="row">
                         {
                             catalog.map(el => (
-                                <div className="col-3 " key={el.id}>
+                                <div className="col-xxl-3 col-xl-3 col-lg-6 col-md-12 " key={el.id}>
 
                                     <img src={el.image} alt="" className="my-3" width="300px" height="400px"/>
                                     <span className="d-flex align-items-center justify-content-between">
